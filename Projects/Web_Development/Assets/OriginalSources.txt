@@ -1,0 +1,72 @@
+HTML :
+
+html5shiv
+- https://github.com/aFarkas/html5shiv/
+
+Highlights :
+
+ChristmasCarol.jpeg
+- https://commons.wikimedia.org/wiki/File:
+December_on_the_Red_Louisiana_Boardwalk_Giant_Christmas_Tree_2.jpg
+
+Winter.jpeg 
+- https://imgflip.com/memegenerator/Brace-Yourselves-X-is-Coming
+
+BlackFriday.jpeg 
+- https://simple.wikipedia.org/wiki/File:DCUSA.Gallery10.TargetBlackFriday.
+Wikipedia.jpg
+
+Halloween.jpeg
+- https://pixabay.com/en/halloween-cat-weird-surreal-959006/
+
+Avatar :
+
+James.jpeg
+- https://pixabay.com/en/avatar-face-glasses-male-man-1294776/
+
+Alan.jpeg
+- https://commons.wikimedia.org/wiki/File:Avatar_poe84it.png
+
+Category Icons:
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> 
+from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is 
+licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 
+title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
+Exhibition:
+http://www.freepik.com/free-icon/painting-exhibit-in-fine-art-museum_744498.htm
+
+Festival:
+http://www.freepik.com/free-icon/couple-of-balloons_705137.htm
+
+Carnival:
+http://www.freepik.com/free-icon/fireworks_888283.htm
+
+Theater:
+http://www.freepik.com/free-icon/comedy-and-tragedy-masks-couple_793302.htm
+
+Comedy:
+http://www.freepik.com/free-icon/clown_694963.htm
+
+Family:
+http://www.freepik.com/free-icon/family-group-of-three_783462.htm
+
+Music:
+http://www.freepik.com/free-icon/music-player_924823.htm
+
+Sport:
+http://www.freepik.com/free-icon/trail-running-shoe_732778.htm
+
+Dance:
+http://www.freepik.com/free-icon/flamenco-dancer_731419.htm
+
+PHP code:
+
+function validateDate:
+http://stackoverflow.com/questions/19271381/correctly-determine-if-date-string-
+is-a-valid-date-in-that-format
+
+
+

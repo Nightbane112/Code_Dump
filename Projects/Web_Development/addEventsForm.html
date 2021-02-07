@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<!-- Webpage specification -->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0"/>
+    <link href="theme.css" rel="stylesheet" type="text/css"/>
+    <!-- For pre-IE 9 compatibility -->
+    <!--[if lt IE 9]>
+    <script src="/Assets/src/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    <title>Site Administration - Add a new event</title>
+</head>
+<body>
+<header id="pageHeader">
+    <!--Company branding / banner here-->
+    <h1>Arts and Events</h1>
+    <p>Your one-stop center to your uptown lifestyle </p>
+</header>
+<nav id="adminPageNav">
+    <ul>
+        <li><a href="adminPage.html" title="Site administration" tabindex="1">Admin page</a></li>
+        <li><a href="addEventsForm.html" title="New Events" tabindex="2">Add a new event</a></li>
+        <li><a href="editSelectList.php" title="Modify available event details" tabindex="3">Edit / Update available event</a></li>
+    </ul>
+</nav>
+<main id="mainContent">
+    <h2>Add new event</h2>
+    <p>Please enter the details of the new event into the form below</p>
+    <form id="addNewEvent" action="displayExpected.php" method="post">
+        <fieldset>
+            <legend>Event Details</legend>
+            <em>Columns marked with asterisks are required</em>
+            <div>
+                <label for="eventTitle">Event title</label>
+                <input id="eventTitle" type="text" name="eventTitle" required autofocus tabindex="4" />
+                <em>*</em>
+            </div>
+            <div>
+                <label for="eventDesc">Event description :</label>
+                <textarea id="eventDesc" name="eventDesc" rows="5" cols="30" required tabindex="5"></textarea>
+                <em>*</em>
+            </div>
+            <div>
+                <p>Start Date :</p>
+                <span>
+                    <label for="eventStartDay">Day:</label>
+                    <input id="eventStartDay" type="number" name="eventStartDay" min="01" max="31" style="width:35px" tabindex="6" />
+                </span>
+                <span>
+                    <label for="eventStartMonth">Month:</label>
+                    <select id="eventStartMonth" name="eventStartMonth" tabindex="7">
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="eventStartYear">Year:</label>
+                    <input id="eventStartYear" type="number" name="eventStartYear" min="1940" max="2100" style="width:50px" tabindex="8" />
+                </span>
+            </div>
+            <div>
+                <p>End date :</p>
+                <span>
+                    <label for="eventEndDay">Day:</label>
+                    <input id="eventEndDay" type="number" name="eventEndDay" min="01" max="31" style="width:35px" tabindex="9" />
+                </span>
+                <span>
+                    <label for="eventEndMonth">Month:</label>
+                    <select id="eventEndMonth" name="eventEndMonth" tabindex="10">
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="eventEndYear">Year:</label>
+                    <input id="eventEndYear" type="number" name="eventEndYear" min="1940" max="2100" style="width:50px" tabindex="11" />
+                </span>
+            </div>
+            <div>
+                <label for="entryPrice">Entry price :</label>
+                <input id="entryPrice" type="text" name="entryPrice" placeholder="Price in &pound;" tabindex="12" />&pound;
+            </div>
+            <div>
+                <label for="categoryID">Event category :</label>
+                <select id="categoryID" name="categoryID" tabindex="13">
+                    <option value="c1">Carnival</option>
+                    <option value="c2">Theatre</option>
+                    <option value="c3">Comedy</option>
+                    <option value="c4">Exhibition</option>
+                    <option value="c5">Festival</option>
+                    <option value="c6">Family</option>
+                    <option value="c7">Music</option>
+                    <option value="c8">Sport</option>
+                    <option value="c9">Dance</option>
+                </select>
+            </div>
+            <div>
+                <label for="venueID">Event venue :</label>
+                <select id="venueID" name="venueID" tabindex="14">
+                    <option value="v1">Theatre Royal</option>
+                    <option value="v2">BALTIC Centre for Contemporary Art</option>
+                    <option value="v3">Laing Art Gallery</option>
+                    <option value="v4">The Biscuit Factory</option>
+                    <option value="v5">Discovery Museum</option>
+                    <option value="v6">HMS Calliope</option>
+                    <option value="v7">Metro Radio Arena</option>
+                    <option value="v8">Mill Volvo Tyne Theatre</option>
+                    <option value="v9">PLAYHOUSE Whitley Bay</option>
+                    <option value="v10">Shipley Art Gallery</option>
+                    <option value="v11">Seven Stories</option>
+                </select>
+            </div>
+            <div>
+                <input type="reset" value="Reset form" tabindex="15"/>
+            </div>
+            <div>
+                <input type="submit" value="Add event" tabindex="16"/>
+            </div>
+        </fieldset>
+    </form>
+</main>
+<!-- page footer here -->
+<footer id="pageFooter" tabindex="17">
+    <!--disclaimer and contact info goes here -->
+    <p>
+        <small>All content &copy; copyright 2016 Arts and Events | Please read our <a href="credits.html" tabindex="18">
+            terms and conditions</a></small>
+    </p>
+    <address tabindex="19">
+        <small>
+            4 Lymington Rd <br/>
+            Westgate-on-Sea <br/>
+            CT8 8ET <br/>
+            United Kingdom <br/>
+        </small>
+    </address>
+    <p><a href="tel://+44777-4919-702" title="Give us a call" accesskey="T" tabindex="20"> +447774919702</a></p>
+    <p><a href="mailto:arts'n'events@gmail.co.uk" title="Email us" accesskey="E"
+          tabindex="21">arts'n'events@gmail.ac.uk</a></p>
+</footer>
+</body>
+</html>

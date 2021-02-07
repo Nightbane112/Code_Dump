@@ -1,0 +1,4 @@
+
+ Alice 10
+ Elaine 7
+ Noriko	5
